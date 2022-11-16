@@ -1,2 +1,0 @@
-# FreeCodeCamp
-FreeCodeCamp projects
