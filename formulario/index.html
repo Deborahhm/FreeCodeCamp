@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Habits Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="container">
+        <section class="container-title">
+            <h1 id="title">Health Habits</h1>
+            <p id="description">Let's talk about your habits!</p>
+        </section>
+        <form id="survey-form" action="#">
+            <fieldset class="info">
+                <label id="name-label" for="name">
+                    Enter your Name: <input placeholder="Fulano da Silva" id="name" name="name" type="text"> 
+                </label>
+                <label id="email-label"for="email">
+                    Enter your email: <input placeholder="fulanodasilva@gmail.com" id="email" name="email" type="email" required> 
+                </label>
+                <label id="number-label"for="number">
+                    Enter your age: <input placeholder="32" id="number" name="age" type="number"required min="1" max="122">
+                </label>
+            </fieldset>
+            <fieldset>
+                <p class="question">Do you practice sports?</p>
+                <label for="yes-1"><input id="yes-1" name="times-sports" type="radio">Yes, 1 time a week.</label>
+                <label for="yes-2"><input id="yes-2" name="times-sports" type="radio">Yes, 2 times a week.</label>
+                <label for="yes-3"><input id="times-sports" name="yes-3" type="radio">Yes, 3 times a week or more.</label>
+                <label for="no"><input id="no" name="times-sports" type="radio">No</label>
+            </fieldset>
+            <fieldset>
+                <p class="question">What do you practice?</p>
+                <label for=""><input name="sports" type="checkbox">Swimming</label>
+                <label for=""><input name="sports" type="checkbox">Kung Fu</label>
+                <label for=""><input name="sports" type="checkbox">Soccer</label>
+                <label for=""><input name="sports" type="checkbox">Tennis</label>
+                <label for=""><input name="sports" type="checkbox">Gym</label>
+                <label for=""><input name="sports" type="checkbox">Crossfit</label>
+                <label for=""><input name="sports" type="checkbox">Dance</label>
+                <label for=""><input name="sports" type="checkbox">Other</label>
+            </fieldset>
+            <fieldset>
+                <p class="Question">Let's talk about diet</p>
+
+                <label for="dropdown">how much water do you drink?
+                    <select name="water" id="dropdown">
+                        <option value="0">less than 1 liter</option>
+                        <option value="1">1 liter</option>
+                        <option value="2">more than 1 liter</option>
+                    </select>
+                </label>
+                    <p class="question">Do you often eat fast food?</p>
+                    <label for="yes"><input id="yes" name="fast-food" type="radio">Yes</label>
+                    <label for="no"><input id="no" name="fast-food" type="radio">No</label>
+            
+                    <p class="question">Do you often eat fruits and vegetables?</p>
+                    <label for="yes"><input id="yes" name="fruit" type="radio">Yes</label>
+                    <label for="no"><input id="no" name="fruit" type="radio">No</label>
+            </fieldset>
+            <fieldset>
+                <label for="medicines">Do you have any medical conditions or use any medicines?
+                    <textarea id="medicines" name="medicines" rows="3" cols="30" placeholder="I have breathing problems and I use awamys"></textarea>
+                  </label>
+            </fieldset>
+            <input type="submit" value="submit">
+        </form>
+    </main>
+</body>
+</html>

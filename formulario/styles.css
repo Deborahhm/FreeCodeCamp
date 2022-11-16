@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang&family=Fuzzy+Bubbles:wght@700&family=Tenor+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0; 
+    background-image: url(images/fruits.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container{
+    padding: 1vh;
+    width: 60%;
+    margin: 10vh auto;
+    max-width: 600px;
+    background-color: #D6D4D5;
+    opacity: 0.9;
+    border: 2px solid #861B12;
+}
+
+.container-title{
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-align: center;
+    color: #861B12;
+    padding: 1vh;
+}
+
+fieldset{
+    border-style: none;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+
+label{
+    display: block;
+    margin: 0.5rem 0;
+    color: #231818;
+}
+
+form p{
+    color: #861B12;
+}
+
+input[type="text"], input[type="email"],input[type="number"]{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+input,textarea{
+    background-color: #D6D4D5; 
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    border: 1px solid white; 
+    color: white; 
+    background-color: #861B12;
+    min-width: 300px;
+  }
+
+input[type="submit"]:hover{
+    background-color: #3b0b07;
+}
