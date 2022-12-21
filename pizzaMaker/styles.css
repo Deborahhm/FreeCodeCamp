@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang&family=Fuzzy+Bubbles:wght@700&family=Neucha&family=Rubik+Mono+One&family=Sono:wght@400;700&family=Tenor+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/backboard.png);
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    margin: 0; 
+    background-color: black;
+    color: white;
+}
+
+header{ 
+
+    padding: 1vh;
+}
+
+.header-section-red{
+    margin: 0;
+    padding: 0;
+    content:" ";
+    margin: 0 auto;
+    text-align: center;
+    background-color: red;  
+    width: 50vw;
+    min-width: 600px;
+    height: 3px;  
+}
+
+h1{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 3em;
+}
+
+h3{
+    font-family: 'Neucha', cursive;
+    margin: 0; 
+    padding: 0;
+}
+
+main{
+    margin: 0 auto;
+    width: 50vw;
+    height: 60vh;
+    min-width: 600px;
+}
+.main-section{
+    visibility: visible;
+}
+.main-section-h2{
+    color: white;
+    text-align: left;
+    border-style: none none dashed none;
+    border-color: white;
+    border-width: 2px;
+    font-family: 'Neucha', cursive;
+}
+
+form{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.main-section-subtitle{
+    text-align: left;
+    color: rgb(252, 90, 90);
+}
+
+
+img{
+    width: 100px;
+}
+
+#button-icon{
+    visibility: visible;
+    background-color: #000000; /* Green */
+    font-family: 'Rubik Mono One', sans-serif;
+    border: none;
+    opacity: 0.5;
+    color: red;
+    border-radius: 50%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#button-icon2{
+    visibility: hidden;
+    background-color: #000000; /* Green */
+    font-family: 'Rubik Mono One', sans-serif;
+    border: none;
+    color: red;
+    border-radius: 50%;
+    opacity: 0.5;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#button-icon:hover{
+    background-color: #1f1e1e; 
+}
+
+#button-icon2:hover{
+    background-color: #1f1e1e; 
+}
+
+#pizza-img-parent {
+    position: absolute;
+    top: 12vh;
+
+  }
+  
+  .pizza-img-pasta{
+    width: 500px;
+    position: absolute;
+    top: 12vh;
+    left:12vw;
+
+  }
+  .pizza-img-sause{
+    width: 470px;
+    position: absolute;
+    padding-left: 2vw;
+    top: 17vh;
+    left: 12vw;
+
+  }
+
+  .pizza-img-topping {
+    width: 470px;
+    position: absolute;
+    padding-left: 2vw;
+    top: 17vh;
+    left:11vw;
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    #pizza-img-parent {
+        margin: 0 auto;
+        top: 15vh;
+        left: 0vw;
+      }
+      
+      .pizza-img-pasta{
+        width: 500px;
+        margin: 0 auto;
+        top: 15vh;
+        left: 0vw;
+      }
+      .pizza-img-sause{
+        width: 470px;
+        padding-left: 2vw;
+        margin: 0 auto;
+        top: 20vh;
+        left: 0vw;
+      }
+    
+      .pizza-img-topping {
+        width: 470px;
+        padding-left: 2vw;
+        margin: 0 auto;
+        top: 20vh;
+        left: 0vw;
+      }
+  }
+
+
+  #image1{
+    visibility: hidden;
+  }
+  #image2{
+    visibility: hidden;
+  }
+  #image3{
+    visibility: hidden;
+  }
+  #image4{
+    visibility: hidden;
+  }
+  #image5{
+    visibility: hidden;
+  }
+  #image6{
+    visibility: hidden;
+  }
+  #image7{
+    visibility: hidden;
+  }
+  #image8{
+    visibility: hidden;
+  }
+  

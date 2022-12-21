@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Pizza maker</title>
+</head>
+<body >
+    <header>
+        <section id="header-title">
+            <div class="header-section-red">
+            </div>
+            <h1>PIZZA MAKER!</h1>
+            <h3>Make your own Pizza</h3>
+        </section>
+    </header>
+    <main>
+        <section id="main-pasta" class="main-section">
+            <h2 class="main-section-h2">choose your pasta</h2>
+            <h3 class="main-section-subtitle">Please select your pasta type:</h3><br>
+            <form action="/action_page.php"> 
+                <div class="main-section-option">
+                  <input type="radio" id="traditional" name="pasta" value="traditional">
+                  <label for="pasta">traditional</label><br>
+                    <img src="images/Pizzaa-01.png" alt=""><br>
+                </div>
+                <div class="main-section-option">
+                  <input type="radio" id="integral" name="pasta" value="integral">
+                  <label for="pasta">Integral</label><br>
+                    <img src="images/Pizzaa-02.png" alt=""><br>
+                </div>
+                <div class="main-section-option">
+                  <input type="radio" id="long" name="pasta" value="long">
+                  <label for="pasta">Long fermentation</label><br>
+                    <img src="images/Pizzaa-03.png" alt=""><br>
+                </div>
+              
+        </section>
+        <section id="main-salse" class="main-section">
+            <h2 class="main-section-h2">choose your salse</h2>
+            <h3 class="main-section-subtitle">Please select your sause type:</h3><br>
+        </form>
+        <form action="/action_page.php"> 
+          <div class="main-section-option">
+            <input type="radio" id="Cheese" name="sause" value="Cheese">
+            <label for="sause">Cheese</label><br>
+              <img src="images/Pizzaa-04.png" alt=""><br>
+          </div>
+          <div class="main-section-option">
+            <input type="radio" id="tomato" name="sause" value="tomato">
+            <label for="sause">Tomato salse</label><br>
+              <img src="images/Pizzaa-05.png" alt=""><br>
+          </div>
+          
+        </form>
+        </section>
+        <section id="main-topping" class="main-section">
+            <h2 class="main-section-h2">choose your topping</h2>
+            <h3 class="main-section-subtitle">Please select your topping:</h3><br>
+            <form action="/action_page.php"> 
+                <div class="main-section-option">
+                  <input type="checkbox" id="veg" name="topping" value="veg">
+                  <label for="topping">Veg</label><br>
+                    <img src="images/Veg.png" alt=""><br>
+                </div>
+                <div class="main-section-option">
+                  <input type="checkbox" id="non-veg" name="topping" value="non-veg">
+                  <label for="topping">Non Veg</label><br>
+                    <img src="images/Non-veg.png" alt=""><br>
+                </div>
+            </form>
+        </section>
+        
+        <section id="pizza-img">
+            <div class="pizza-img-parent" id="pizza-img-parent">
+                <img id="image1" class="image1 pizza-img-pasta" src="images/Pizzaa-01.png" />
+                <img id="image2" class="image2 pizza-img-pasta" src="images/Pizzaa-02.png" />
+                <img id="image3" class="image3 pizza-img-pasta" src="images/Pizzaa-03.png" />
+                <img id="image4" class="image4 pizza-img-sause" src="images/Pizzaa-04.png" />
+                <img id="image5" class="image5 pizza-img-sause" src="images/Pizzaa-05.png" />
+                <img id="image6" class="image6 pizza-img-topping" src="images/Veg.png" />
+                <img id="image7" class="image7 pizza-img-topping" src="images/Non-veg.png" />
+                <img id="image8" class="image8 pizza-img-topping" src="images/veg-nonveg.png" />
+            </div>
+        </section>
+        
+        <button onclick="showImg()" class="button-icon" id="button-icon2"> <--- </button>
+        <button onclick="hideImg()" class="button-icon" id="button-icon"> ---> </button>
+        
+        <script src="script.js"></script>
+    </main>
+    
+    <footer></footer>
+</body>
+</html>
